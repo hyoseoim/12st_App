@@ -11,7 +11,7 @@
         android:id="@+id/requestText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="https://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=69d14a3a3acfa3e8e44d8f30939b3560&#38;targetDt=20211001"
+        android:text="https://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=69d14a3a3acfa3e8e44d8f30939b3560&amp;targetDt=20211001"
         />
 
     <Button
@@ -25,8 +25,7 @@
         android:id="@+id/recycleView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="10dp" />
-
+        android:layout_marginBottom="10dp"/>
 </LinearLayout>
 
 
