@@ -31,14 +31,14 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
                 <TextView
-                    android:id="@+id/movieName"
+                    android:id="@+id/moviename"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="영화제목"
                     android:textSize="22sp"
                     android:maxLines="1"/>
                 <TextView
-                    android:id="@+id/peopleCount"
+                    android:id="@+id/peoplecount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"

@@ -46,8 +46,8 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         TextView peopleCount;
         public ViewHolder(View itemView){
             super(itemView);
-            movieName = itemView.findViewById(R.id.movieName);
-            peopleCount = itemView.findViewById(R.id.peopleCount);
+            movieName = itemView.findViewById(R.id.moviename);
+            peopleCount = itemView.findViewById(R.id.peoplecount);
         }
         public void setItem(Movie item)
         {
