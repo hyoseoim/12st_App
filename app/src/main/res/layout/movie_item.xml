@@ -17,7 +17,7 @@
         app:cardElevation="5dp">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="210dp"
             android:orientation="horizontal">
             <ImageView
                 android:layout_width="80dp"
@@ -47,6 +47,39 @@
                     android:text="관객수"
                     android:textColor="#FF0000FF"
                     android:textSize="16sp"/>
+                <TextView
+                    android:id="@+id/rank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="left"
+                    android:paddingRight="10dp"
+                    android:text="순위"
+                    android:textColor="#FFFF00FF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/audiAcc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:text="누적 관객수"
+                    android:textColor="#FF00FF00"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/openDt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="개봉일"
+                    android:textColor="#FFFF00"
+                    android:textSize="16sp" />
+
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
